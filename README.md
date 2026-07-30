@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk menganalisis kinerja portofolio saham dengan menghitu
 ## Tim Proyek
 
 | Anggota Kelompok | NIM |
-|--------------|-------|
+|---------------|-------|
 | Aliifah       | L0225014 |
 | Fathia        | L0225021   |
 ---
