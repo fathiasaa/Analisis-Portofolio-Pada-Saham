@@ -1,4 +1,54 @@
-# Analisis-Portofolio-Saham
-Proyek ini bertujuan untuk menganalisis kinerja portofolio saham dengan menghitung tingkat return, risiko (volatilitas), dan rasio sharpe dari masing-masing saham. Selain itu, proyek ini dilakukan untuk menentukan portofolio optimal menggunakan pendekatan Efficient Frontier, yaitu portofolio yang memberikan keseimbangan terbaik antara tingkat pengembalian dan risiko.
-Data yang digunakan dalam proyek ini berasal dari empat saham dengan kode ticker 035900.KQ, 041510.KQ, 173940.KQ, dan 122870.KQ. Analisis dilakukan menggunakan metode simulasi Monte Carlo dengan 10.000 kombinasi bobot portofolio yang dibentuk secara acak. Metode ini digunakan untuk melihat berbagai kemungkinan kombinasi portofolio serta pengaruhnya terhadap tingkat return dan risiko.
-Hasil simulasi menunjukkan bahwa portofolio optimal diperoleh berdasarkan nilai rasio Sharpe tertinggi. Portofolio ini memiliki annual return sebesar 34,78%, annualized volatility sebesar 45,45%, dan rasio Sharpe sebesar 0,7432. Alokasi dana utama pada portofolio optimal ini terdiri dari saham 035900.KQ sebesar 56,74% dan saham 041510.KQ sebesar 43,09%. Hal menunjukkan keseimbangan yang baik antara risiko dan return dengan tingkat risiko. Sehingga, portofolio ini sesuai bagi investor dengan profil risiko moderat yang mengutamakan efisiensi antara pengembalian dan risiko.
+# Analisis Portofolio Saham - Efficient Frontier
+
+Proyek ini bertujuan untuk menganalisis kinerja portofolio saham dengan menghitung **return**, **risiko (volatilitas)**, dan **rasio Sharpe** dari masing-masing saham. Selain itu, proyek ini menentukan portofolio optimal menggunakan pendekatan **Efficient Frontier**, yaitu portofolio yang memberikan keseimbangan terbaik antara tingkat pengembalian dan risiko.
+
+---
+
+## Dataset
+Data yang digunakan berasal dari empat saham dengan kode ticker:
+- 035900.KQ
+- 041510.KQ
+- 173940.KQ
+- 122870.KQ
+
+---
+
+## Metodologi
+1. **[Simulasi Monte Carlo](ca://s?q=Simulasi_Monte_Carlo_portofolio)**  
+   - Membentuk 10.000 kombinasi bobot portofolio secara acak.  
+   - Menghitung return dan risiko untuk setiap kombinasi.  
+
+2. **[Perhitungan Return & Risiko](ca://s?q=Perhitungan_return_dan_risiko_portofolio)**  
+   - Annual return dihitung dari rata-rata pengembalian.  
+   - Volatilitas dihitung sebagai standar deviasi tahunan.  
+
+3. **[Rasio Sharpe](ca://s?q=Rasio_Sharpe_portofolio)**  
+   - Digunakan untuk mengukur efisiensi portofolio (return per unit risiko).  
+
+4. **[Efficient Frontier](ca://s?q=Efficient_Frontier_portofolio)**  
+   - Menentukan portofolio optimal dengan rasio Sharpe tertinggi.  
+
+---
+
+## Hasil
+- **Portofolio Optimal** diperoleh berdasarkan rasio Sharpe tertinggi.  
+- Annual Return: **34,78%**  
+- Annualized Volatility: **45,45%**  
+- Rasio Sharpe: **0,7432**  
+
+**Alokasi dana utama:**
+- Saham 035900.KQ → 56,74%  
+- Saham 041510.KQ → 43,09%  
+
+Portofolio ini menunjukkan keseimbangan yang baik antara risiko dan return, sesuai bagi investor dengan profil risiko moderat.
+
+---
+
+## Dokumentasi
+- Notebook `.ipynb` berisi langkah analisis lengkap.  
+
+---
+
+## Catatan
+Proyek ini dibuat untuk **tugas analisis data keuangan**.  
+Hasil simulasi dapat berbeda jika dataset diperbarui atau jumlah simulasi diubah.
