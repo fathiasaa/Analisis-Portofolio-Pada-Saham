@@ -50,5 +50,5 @@ Portofolio ini menunjukkan keseimbangan yang baik antara risiko dan return, sesu
 ---
 
 ## Catatan
-Proyek ini dibuat untuk **tugas analisis data keuangan**.  
+Proyek ini dibuat untuk **Tugas Mata Kuliah Dasar Pemograman**.  
 Hasil simulasi dapat berbeda jika dataset diperbarui atau jumlah simulasi diubah.
