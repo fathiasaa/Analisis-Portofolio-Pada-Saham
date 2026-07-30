@@ -3,6 +3,13 @@
 Proyek ini bertujuan untuk menganalisis kinerja portofolio saham dengan menghitung **return**, **risiko (volatilitas)**, dan **rasio Sharpe** dari masing-masing saham. Selain itu, proyek ini menentukan portofolio optimal menggunakan pendekatan **Efficient Frontier**, yaitu portofolio yang memberikan keseimbangan terbaik antara tingkat pengembalian dan risiko.
 
 ---
+## Tim Proyek
+
+| Nama Anggota | NIM |
+|--------------|-------|
+| Aliifah       | L0225014 |
+| Fathia        | L0225021   |
+---
 
 ## Dataset
 Data yang digunakan berasal dari empat saham dengan kode ticker:
