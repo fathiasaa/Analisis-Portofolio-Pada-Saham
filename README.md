@@ -41,6 +41,7 @@ Data yang digunakan berasal dari empat saham dengan kode ticker:
 - Saham 041510.KQ → 43,09%  
 
 > Catatan: Angka di atas merupakan hasil simulasi pada dataset dan parameter tertentu. Nilai dapat berbeda jika dataset, periode waktu, atau jumlah simulasi diubah.
+
 Portofolio ini menunjukkan keseimbangan yang baik antara risiko dan return, sesuai bagi investor dengan profil risiko moderat.
 
 ---
